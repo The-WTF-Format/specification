@@ -38,7 +38,7 @@ ended by code only containing $0$.
 
 - Code length = $00000011_2$
 - Colors in set color space
-- 1 byte colors in hex in he example
+- 1 byte colors in hex in the example
 
 #figure(
   caption: "Example Color Lookup Table",
@@ -59,4 +59,4 @@ ended by code only containing $0$.
 == Constraints
 
 min. entries: $1$
-max. entries: $2^255$
+max. entries: $2^64$

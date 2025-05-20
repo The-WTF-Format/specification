@@ -10,7 +10,7 @@ Each WTF file begins with a *1-byte version field* and a* 9-byte header*, follow
 - *Animation* with up to 255 frames and frame timing ranging from 1 frame every 127 seconds to 127 frames per second
 - *Compression* via a optional CLUT for image data
 
-Metadata is included using key-value pairs, where keys are restricted to non-control ASCII characters and values may contain arbitrary UTF-8 text. Padding bytes are used throughout to maintain byte alignment and structural consistency.
+Metadata is included using key-value pairs, where keys are restricted to non-control ASCII characters and values may contain arbitrary UTF-8 text. Padding bits are used throughout to maintain byte alignment and structural consistency.
 
 The WTF-File format’s strict byte alignment and fixed structure ensure efficient parsing with minimal overhead. Each segment is designed to be processed sequentially or mapped directly into memory, eliminating the need for bit-level operations. This makes the format ideal for low-level systems, embedded environments, custom renderers, or situations where precise control over file structure, memory usage, and data access speed is required.
 

@@ -34,7 +34,7 @@ The metadata section stores descriptive information as a sequence of key-value p
 - The sequence may be repeated for multiple key-value pairs.
 
 == Termination
-The metadata section is terminated by a single null byte $0_16$ representing an empty key, followed by a single bit of padding, with no corresponding value.
+The metadata section is terminated by a single null byte $0_16$ representing an empty key, followed by a single byte of padding, with no corresponding value.
 
 == Constraints
 - `Keys` must not contain the NUL-character.
