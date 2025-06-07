@@ -5,7 +5,7 @@
   "Hörschläger",
   "Lazzaretti",
   "Sanden",
-  "Ubel"
+  "Ubl"
 )
 
 // Overview Colors
