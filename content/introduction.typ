@@ -8,7 +8,7 @@ Each WTF file begins with a *1-byte version field* and a* 9-byte header*, follow
 - *Five color spaces*: Grayscale, RGB, CMY, HSV, and YCbCr
 - *Three transparency modes*: None, fixed, and per-pixel (dynamic)
 - *Animation* with up to 255 frames and frame timing ranging from 1 frame every 127 seconds to 127 frames per second
-- *Compression* via a optional CLUT for image data
+- *Compression* via an optional CLUT for image data
 
 Metadata is included using key-value pairs, where keys are restricted to non-control ASCII characters and values may contain arbitrary UTF-8 text. Padding bits are used throughout to maintain byte alignment and structural consistency.
 

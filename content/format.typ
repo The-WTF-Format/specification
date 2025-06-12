@@ -15,8 +15,8 @@
     bytes(1, "Padding", fill: colors.padding.color.lighten(bytefield-lighten)),
     bytes(10, fill: colors.metadata.color.lighten(bytefield-lighten))[Metadata],
     bytes(1, "Padding", fill: colors.padding.color.lighten(bytefield-lighten)),
-    bytes(16, fill: colors.imagedata.color.lighten(bytefield-lighten))[Image Data],
-    bytes(2, "Padding", fill: colors.padding.color.lighten(bytefield-lighten))
+    bytes(17, fill: colors.imagedata.color.lighten(bytefield-lighten))[Image Data],
+    bytes(1, "Padding", fill: colors.padding.color.lighten(bytefield-lighten))
   )
 )
 
